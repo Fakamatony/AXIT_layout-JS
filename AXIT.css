@@ -1,0 +1,789 @@
+*{
+    font-family: 'Myriad Pro', sans-serif;
+}
+body{
+    width: 100vw;
+    height: max-content;
+    margin: 0;
+    overflow-x:hidden;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.navbar .header .brandBar .features .ourProcess .pricing .testimonials .customSection .contactUs .footer{
+    width: 100%;
+}
+
+.navbar{
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo{
+    margin: 21px 0 21px 151px;
+}
+.navbarParagraphs{
+    width: max-content;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 148px;
+}
+.navbarText{
+    color: #c9c9c9;
+    margin-left: 48px;
+    font-size: 23px;
+    cursor: alias;
+}
+
+.header{
+    height: 640px;
+    background-image: url("photo_2021-06-13_16-53-30.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.headerContent{
+    width: 463px;
+    height: 400px;
+    margin: 110px 0 135px 0;
+    color: white;
+}
+.headerContentLogo{
+    width: 176px;
+    height: 60px;
+}
+.headerContentOne{
+    width: 442px;
+    height: 70px;
+    font-size: 35px;
+    margin-bottom: 38px;
+}
+.headerContentBr{
+    border-bottom: solid white 2px;
+    margin-bottom: 38px;
+    width: 50px;
+
+}
+.headerContentTwo{
+    font-family: 'Myriad Pro', sans-serif;;
+    font-size: 25px;
+}
+.headerContentButton{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.headerContentButton:hover{
+    box-shadow: black 2px 2px 2px;
+}
+.headerContentButton:active{
+    background-color: #646464;
+}
+.form{
+    width: 362px;
+    height: 362px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 110px 0 135px 0;
+    background-color: #dddddd;
+}
+.formItem{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 0;
+    border: none;
+}
+.perv{
+    width: 360px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    font-size: 25px;
+}
+.free{
+    color: #ff9b51;
+}
+.inputText{
+    width: 285px;
+    height: 33px;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    outline: none;
+    font-size: 20px;
+}
+.inputText::placeholder{
+    color: #dddddd;
+}
+.inputEmail{
+    width: 285px;
+    height: 33px;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    outline: none;
+    font-size: 20px;
+}
+.inputEmail::placeholder{
+    color: #dddddd;
+}
+.inputPassword{
+    width: 285px;
+    height: 33px;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    outline: none;
+    font-size: 20px;
+}
+.inputPassword::placeholder{
+    color: #dddddd;
+}
+.buttonForm{
+    width: 100%;
+    height: 100%;
+    outline: #ff9b51;
+    border: #ff9b51;
+    background-color: #ff9b51;
+    color: white;
+    font-size: 20px;
+}
+.buttonForm:hover{
+    background-color: #ff9b70;
+}
+.buttonForm:active{
+    background-color: #ff9b90;
+}
+
+.brandBar{
+    height: 106px;
+    background-color: white;
+    display: flex;
+    box-shadow: 0 2px 7px -1px rgba(0, 0, 0, 0.57);
+}
+.socialMedia{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h1{
+    font-size: 25px;
+    margin: 0;
+}
+.h2{
+    font-size: 16px;
+    margin: 0;
+}
+.socialMediaIcons{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.features{
+    height: 1816px;
+    background-color: chocolate;
+}
+.feature1{
+    width: 100%;
+    height: 595px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature1Content{
+    background-color: #f5f5f5;
+    width: 1112px;
+    height: 334px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feature1Tabs{
+    height: 330px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature1TabsButton{
+    width: 110px;
+    height: 110px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    border: #333333;
+    margin: 0.5px;
+    background-color: #333333;
+}
+.tab1{
+    border-radius: 5px 5px 0 0 ;
+}
+.tab3{
+    border-radius:0 0  5px 5px ;
+}
+.feature1TabsButton:hover{
+    background-color: #333339;
+}
+.feature1TabsButton:active{
+    background-color: #ff8b38;
+}
+
+.feature1Text{
+    height: 100%;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+.feature1TextH1{
+    font-size: 20px;
+}
+.feature1TextP{
+    font-size: 18px;
+    color: #9a9a9a;
+}
+.feature1TextP1{
+    font-size: 18px;
+    color: #9a9a9a;
+}
+.feature1TextBtn{
+    border: #ff9b51;
+    border-radius: 5px;
+    background-color: #ff9b51;
+    width: 120px;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+}
+.feature1Logo{
+    height: 100%;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature2{
+    width: 100%;
+    height: 595px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+.feature2DivPicture{
+    width: 455px;
+    height: 300px;
+    background-image: url("768.jpg");
+    background-size: cover;
+    box-shadow: 5px 31px 31px 4px rgba(0, 0, 0, 0.2);
+}
+.feature2DivContent{
+    width: 435px;
+    height: 356px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.feature2DivContentText{
+    width: 100%;
+    height: 133px;
+}
+.feature2DivContentTextH1{
+    font-size: 20px;
+}
+.feature2DivContentTextStick{
+    border-bottom:2px solid #ff9b51;
+    width: 60px;
+}
+.feature2DivContentTextP{
+    color: #86878b;
+}
+.feature2DivContentIconsText{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.feature2DivContentIconsTextItem{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    align-items: center;
+}
+.feature2DivContentIconsTextIcon{
+    width: 42px;
+    height: 42px;
+    background-image: url("CloudLogo.png");
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+.feature2DivContentIconsTextText{
+    width: 326px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.feature2DivContentIconsTextTextH1{
+    font-size: 12px;
+    margin: 0;
+}
+.feature2DivContentIconsTextTextP{
+    font-size: 10px;
+    color: #86878b;
+}
+
+
+.feature3{
+    width: 100%;
+    height: 520px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.feature3DivContent{
+    width: 455px;
+    height: 305px;
+}
+.feature3DivContentH1{
+    font-size: 20px;
+}
+.feature3DivContentStick{
+    border-bottom:2px solid #ff9b51;
+    width: 60px;
+}
+.feature3DivContentP{
+    color: #86878b;
+}
+.feature3DivContentP1{
+    color: #86878b;
+}
+.feature3DivPicture{
+    width: 455px;
+    height: 305px;
+    box-shadow: 5px 31px 31px 4px rgba(0, 0, 0, 0.2);
+    background-image: url("1612494616_50-p-mem-kachok-na-serom-fone-70.jpg");
+    background-size: cover;
+}
+
+
+.ourProcess{
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ourProcessPrev{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ourProcessPrevH1{
+    font-size: 35px;
+}
+.ourProcessPrevStick{
+    border-bottom:2px solid #ff9b51;
+    width: 60px;
+}
+.ourProcessPrevP{
+    color: #86878b;
+}
+.ourProcessContent{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ourProcessItem{
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.ourProcessItemIcon {
+    width: 70px;
+    height: 70px;
+    background-image: url("WhoppingJampackedLacewing-max-1mb.gif");
+    background-size: cover;
+}
+.ourProcessItemH1{
+    font-size: 16px;
+}
+.ourProcessItemP{
+    text-align: center;
+    vertical-align: middle;
+    color: #86878b;
+}
+
+
+
+.pricing{
+    height: 888px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pricingPrev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pricingPrevH1, .testimonialsPrevH1, .contactUsPrevH1{
+    font-size: 35px;
+}
+.pricingPrevStick, .testimonialsPrevStick, .contactUsPrevStick{
+    border-top:2px solid #ff9b51;
+    width: 60px;
+}
+.pricingPrevP, .testimonialsPrevP, .contactUsPrevP{
+    color: #86878b;
+}
+.pricingContent{
+    width: 100%;
+    height: 504px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.pricingContentItem{
+    width: 344px;
+    height: 464px;
+    transition: ease 300ms;
+
+}
+.pricingContentItemBases{
+    width: 100%;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+
+}
+.pricingContentItemBasesPrev{
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    border-bottom: #c9c9c9 solid 1px;
+}
+.pricingContentItemBasesPrice{
+    width: 100%;
+    height: 152px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+
+}
+.pricingContentItemBasesPriceMuch{
+    width: 100%;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.pricingContentItemBasesPriceMuchDollarNumber{
+    display: flex;
+    width: 75px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.dollar{
+    font-weight: bold;
+}
+.number{
+    font-size: 60px;
+}
+.pricingContentItemBasesPriceDescription{
+    margin-bottom: 10px;
+    color: #9a9a9a;
+
+}
+.pricingContentItemBasesDescription{
+    width: 100%;
+    height: 8px;
+    background-color: #ff9b51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255,255,255,0);
+    transition: ease 300ms;
+}
+.pricingContentItemDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pricingContentItemDescriptionItem{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9a9a9a;
+    background-color: white;
+}
+.stick{
+    border-bottom: #c9c9c9 1px solid;
+}
+
+
+.testimonials{
+    height: 594px;
+}
+.testimonialsPrev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+.testimonialsReviews{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.testimonialsReviewsItem{
+    width: 274px;
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.testimonialsReviewsItemComment{
+    width: 100%;
+    height: 133px;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+.testimonialsReviewsItemCommentText{
+    width: 223px;
+    height: 82px;
+    color: #9a9a9a;
+    font-size: 17px;
+}
+.testimonialsReviewsItemHuman{
+    width: 100%;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.testimonialsReviewsItemHumanAvatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 5px;
+}
+.one{
+    background-image: url("https://safebooru.org/images/2672/a4c93220c701054ad543147bf5c2684a247c8633.jpg?2782522");
+}
+.two{
+    background-image: url("https://safebooru.org/images/2672/ecd7320cba3389a8bcfbec8c44c12ca8702fa984.jpg?2782490");
+}
+.three{
+    background-image: url("https://safebooru.org/images/2672/7e44b8e35df0ff49764f7c68cec653cfff0de576.jpg?2782483");
+}
+.testimonialsReviewsItemHumanNamePost{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 189px;
+    height: 73px;
+}
+.testimonialsReviewsItemHumanName{
+    margin-bottom: 0;
+}
+.testimonialsReviewsItemHumanPost{
+    font-size: 12px;
+    margin-top: 0;
+    color: #9a9a9a;
+}
+
+
+
+.customSection{
+    width: 100%;
+    height: 322px;
+    background-image: url("https://pavel-shinshin.ru/images/labs/urban-space/refuse-bin-taganrog/img_4117.jpg");
+    background-size: 100% 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.customSectionItem{
+    margin: 20px;
+}
+.customSectionStick{
+    width: 100px;
+    border: white 1px solid;
+}
+.customSectionBtn{
+    width: 136px;
+    height: 42px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    outline: white;
+    border: white 2px solid;
+}
+.customSectionBtn:hover{
+    background-color: rgba(0,0,0,0.15);
+}
+.customSectionBtn:active{
+    background-color: rgba(0,0,0,0.69);
+}
+
+.contactUs{
+    height: 612px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactUsPrev{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactUsInputs{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactUsInputsInput{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    margin-right: 40px;
+}
+.contactUsInputsTextArea{
+    width: 500px;
+}
+.contactUsInputsTextAreaItem{
+    width: 500px;
+    border: none;
+    border-bottom: 2px #dddddd solid;
+    outline: none;
+    resize: none;
+}
+.contactUsInputsInputName, .contactUsInputsInputEmail, .contactUsInputsInputSubject{
+    height: 32px;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    outline: none;
+    width: 500px;
+
+}
+.contactUsInputsInputEmail, .contactUsInputsInputSubject{
+    margin-top: 20px;
+}
+.contactUsBtn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactUsBtnButton{
+    width: 148px;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    background-color: #ff9b51;
+}
+.contactUsPrev, .contactUsInputs, .contactUsBtn{
+    margin-top: 20px;
+}
+
+.footer{
+    height: 82px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footerIcons{
+    width: 320px;
+    height: 30px;
+    background-image: url("iconsAll.png");
+    background-size: 100% 100%;
+}
+.footerNeverMind{
+    margin-top: 5px;
+    width: 116px;
+    color: #9a9a9a;
+}
